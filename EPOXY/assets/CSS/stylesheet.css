@@ -1,0 +1,234 @@
+.header{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    border: 3px solid;
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid;
+    justify-content: space-between;
+    position: fixed;
+    display: block;
+    padding:  3%,9%;
+    box-sizing: border-box;
+    overflow: hidden;
+} 
+.header.logo{
+    float: left;
+}
+.Topnav {
+    background-color: #370808;
+    overflow: hidden;
+}
+.Topnav a{
+    background-color: #370808;
+    background-image: linear-gradient(to right, #370808, #b08888);
+    color: rgb(42, 4, 29);
+    padding: 06px;
+    float: left;
+    text-align: center;
+    text-decoration: solid;
+    font-size: medium;
+    height: 40%;
+    justify-content: space-between;
+    padding-bottom: 06px;
+}
+.Topnav.img{
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+.Topnav a:hover{
+    background-color: rgb(109, 28, 114);
+    color: rgb(187, 216, 122);
+}
+.Topnav.a.active{
+    background-color: #370808;
+    color: rgb(186, 156, 200);
+}
+.header .icons div{
+    border: 0px solid;
+    height: 25%;
+    width: 25%;
+    line-height: 20px;
+    border-radius: 8px;
+    margin-right: 2px;
+    text-align: center;
+    cursor: pointer;
+} 
+.header .icons div:hover{
+    background-color:rgb(17, 121, 140) ;
+    color:#81c78b ;
+}
+.header .search-form{
+    border: 0cap solid;
+    position: absolute;
+    top: 110%;
+    right: 2%;
+    max-width: 50%;
+    height: 45%;
+    background-color:none;
+    border-radius: 2%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.header .search-form input{
+   height: 100%;
+   width: 100%;
+   background: none;
+   text-transform: none;
+   font-size: o.4rem;
+   padding: o 1.5%;
+}
+.header .search-form input label{
+    font-size: 2.2%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+.header .search-form input label:hover{
+    color: #8ad38b;
+}
+.intro h1,p{
+    text-align: center;
+
+}
+h1{
+    color: #541414;
+    text-align: center;
+
+}
+h2{
+    color: #581515;
+    text-align: center;
+}
+p{
+    color: #581515;
+}
+ul{
+    color: #581515;
+}
+.footer{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(38, 20, 64);
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: inline;
+}
+.footer-content{ 
+    width: 3.3%;
+}
+.container{
+    width: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.footer-content p{
+    width: 190px;
+    padding: 7px;
+    margin: auto;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0%;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.list:before{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(34, 208, 18);
+    transition-duration: 5s;
+}
+.social-icons{
+    text-align: center;
+    padding: 0%;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    font-size: 25px;
+}
+a{
+    text-decoration: dashed;
+}
+a:hover{
+    color: rgb(146, 185, 200);
+}.social-icons i:hover{
+    color: chartreuse;
+}
+.bottom-bar{
+    background-color: rgb(243, 117, 21);
+    padding: 0%, 0%;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.bottom-bar p{
+    color: rgb(155, 49, 120);
+    margin: 0%;
+     padding: 0%;
+     font-size: 16px;
+     margin-bottom: 1px;
+}
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if screen is small */
+    justify-content: space-around;
+    gap: 20px; /* Space between videos */
+    padding: 20px;
+}
+.video-container {
+    flex: 1 1 30%; /* Responsive: 3 videos per row, adjusts based on screen size */
+    max-width: 30%; /* Limits width to a third of the container */
+    box-shadow: 0 4px 8px rgba(116, 190, 233, 0.2);
+}
+.video-container video {
+    width: 100%; /* Makes video fill the container */
+    height: 50%;
+    display: block;
+}
+footer {
+    background-color: #300328;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+.footer-column {
+    flex: 1;
+    padding: 0 1px;
+    color: #ffffff;
+}
+.footer-column a,li,h3,p{
+    color: #ffffff;
+}
